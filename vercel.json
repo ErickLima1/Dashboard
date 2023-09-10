@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "vuetify-project/src/App.vue",
+        "src": "vuetify-project/src/main.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "vuetify-project/src/App.vue"
+        "dest": "vuetify-project/src/main.js"
       }
     ]
   }
